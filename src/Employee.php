@@ -1,0 +1,10 @@
+<?php
+namespace Msaad\Test;
+class Employee {
+     use Greeting;
+     protected $name;
+     public function __construct($name)
+     {
+        $this->name = $name;
+     }
+}

@@ -1,0 +1,21 @@
+{
+    "name": "msaad/test",
+    "description": "php examples",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Msaad\\Test\\": "src/",
+            "Test\\":"ex/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Maysaa Saad",
+            "email": "maysaa.saad118@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/intl": "^6.3"
+    }
+}
