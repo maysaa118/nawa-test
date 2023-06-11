@@ -1,4 +1,5 @@
 <?php
+namespace MANAGESTUDENT;
 
 class Student {
 
